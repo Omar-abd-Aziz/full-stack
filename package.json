@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for read story from firebase and send to frontend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "hagag",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.19.2",
+    "firebase": "^10.14.0",
+    "firestore": "^1.1.6",
+    "object-inspect": "^1.13.2"
+  },
+  "devDependencies": {
+    "firebase-tools": "^13.16.0"
+  }
+}
